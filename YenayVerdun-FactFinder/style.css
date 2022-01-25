@@ -1,0 +1,119 @@
+/*
+Lente:
+https://coolors.co/c19aa2-e3c9d9-413a3b-697a21-daedbd
+
+Herfst:
+https://coolors.co/3b0d11-585123-eec170-f1a355-f58549
+
+matcha
+https://coolors.co/ccd5ae-e9edc9-fefae0-faedcd-d4a373
+
+zomer:
+https://coolors.co/0081a7-00afb9-fdfcdc-fed9b7-f07167
+
+winter:
+https://coolors.co/96bbbb-618985-414635-f2e3bc-c19875
+*/
+
+html{
+	height: 100%;
+}
+
+body{
+	background-color: #C19AA2;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: 100%;
+}
+
+main{
+	width:950px;
+	height:800px;
+	display: grid;
+	grid-template-rows: 120px auto;
+}
+
+section{
+	border: 10px solid #413A3B;   
+	padding: 30px;
+	border-radius: 20px;
+	background-color:#E3C9D9;
+	color:#3b0d11;
+	font-size:20px;
+	font-family: 'Courier New';
+}
+
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 8px;
+	grid-gap: 5px;
+}
+
+#menu > input{
+	background-color: #DAEDBD;
+	border: 5px solid #697A21;
+	font-size:20px;
+	font-family: 'Courier New';
+	color: #413A3B;
+	border-radius: 8px;
+}
+
+#menu > input:hover{
+	background-color: #697A21;
+	color: #FCF8EE;
+}
+
+#theme{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 8px;
+	grid-gap: 5px;
+	height: 30px;
+}
+
+#theme > input{
+	background-color: #DAEDBD;
+	border: 5px solid #697A21;
+	font-size:20px;
+	font-family: 'Courier New';
+	color: #413A3B;
+	border-radius: 8px;
+}
+
+#theme > input:hover{
+	background-color: #697A21;
+	color: #FCF8EE;
+}
+
+#koala{
+	width: 200px;
+	float: right;
+	margin-left: 20px;
+}
+
+#parrot{
+	width: 370px;
+	float: left;
+	margin-right: 20px;
+}
+
+#whale{
+	width: 400px;
+	float: right;
+	margin-right: 20px;
+}
+
+#duck{
+	width: 380px;
+	float: left;
+	margin-right: 20px;
+}
+
+#dolphin{
+	width: 370px;
+	float: left;
+	margin-right: 20px;
+}
+
